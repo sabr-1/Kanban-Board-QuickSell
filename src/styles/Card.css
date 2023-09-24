@@ -1,0 +1,59 @@
+.ticketCard {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    padding: 0.9em;
+    width: 20em;
+    margin: 0.3em 1em;
+    font-family: Arial, sans-serif;
+}
+
+.ticketHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ticketId {
+    font-size: 0.8rem;
+    color: #cfcfcf;
+    font-weight: 550;
+}
+
+.ticketTitle {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.priorityBtn{
+    position: relative;
+    background-color: white;
+        border: solid #f4f4f4 0.01em;
+        color: #cfcfcf;
+        border-radius: 0.3em;
+        font-weight: 550;
+        padding: 0.3em;
+        margin: 0.4em;
+}
+.pInfo {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 5em;
+    background-color: rgb(8, 8, 8,0.489);
+    color: #f5f5f5;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+    z-index: 999;
+
+}
+.priorityBtn:hover .pInfo {
+    opacity: 1;
+    visibility: visible;
+}

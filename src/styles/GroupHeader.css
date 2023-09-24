@@ -1,0 +1,26 @@
+.groupHeader{
+    display: flex;
+    padding-left: 1em;
+    width: 22em;
+    margin-bottom: 1em;
+}
+.groupInfo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+.groupSettings{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.groupName{
+    color: black;
+}
+
+.groupHeader .info{
+    white-space: pre-wrap;
+}
